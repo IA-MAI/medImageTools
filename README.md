@@ -34,7 +34,7 @@ Useful uitlities for medical images using SimpleITK
 
 ##   Extract 2D images from a 3D image 
 
-python medImageUtils.py --extract2D < --imagePath <image path> | --folderPath <folder path> --location <[x,y,z]> --N <number of images>--outputPath <outputPath> 
+    python medImageUtils.py --extract2D < --imagePath <image path> | --folderPath <folder path> --location <[x,y,z]> --N <number of images>--outputPath <outputPath> 
 
 This is useful for simple visualization purposes. The tools will extract the center N images in 3 views as PNG unless a location is provided. If N =2 the output will be 2x3 = 6 2D images 
 
